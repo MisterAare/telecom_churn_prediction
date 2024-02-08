@@ -24,29 +24,39 @@ app = Flask("__name__")
 
 The loadPage method calls our home.html.
 
+```python
 @app.route("/")
 def loadPage():
 	return render_template('home.html', query="")
+```
  
 The predict method is our POST method, which is called when we pass all the inputs from our front end and click SUBMIT.
 
+```python
 @app.route("/", methods=['POST'])
 def predict():
+```
 
 The run() method of Flask class runs the application on the local development server.
 
+```python
 app.run()
+```
 
-Awesome, the model is ready, let’s test our bot. The above given Python script is executed from Python shell.
+Awesome, the model is ready, let’s test our bot. The above given Python script is executed from a Python shell.
 
 Go to Anaconda Prompt, and run the below query.
 
+```python
 python app.py
+```
 
 The below message in the Python shell is seen, which indicates that our App is now hosted at http://127.0.0.1:5000/ or localhost:5000
 
+```python
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
   
-HERE'S HOW OUR FRONTEND LOOKS LIKE:
+HERE'S WHAT THE FRONTEND LOOKS LIKE:
 
 ![image](https://github.com/MisterAare/telecom_churn_prediction/assets/109184556/fe410163-f63c-4eed-8c30-224d3cb3131d)
