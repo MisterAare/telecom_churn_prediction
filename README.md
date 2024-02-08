@@ -1,5 +1,6 @@
 # Telecom customer churn prediction
 
+![Code_qYpVAXuBDQ](https://github.com/MisterAare/telecom_churn_prediction/assets/109184556/1f91ef4d-37d8-48df-832a-59d003576f78)
 
 # Dataset:
 
