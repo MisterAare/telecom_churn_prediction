@@ -5,10 +5,10 @@
 
 **The data set includes information about:**
 
-a. Customers who left within the last month – the column is called Churn
-b. Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-c. Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-d. Demographic info about customers – gender, age range, and if they have partners and dependents
+1. Customers who left within the last month – the column is called Churn.
+2. Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
+3. Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+4. Demographic info about customers – gender, age range, and if they have partners and dependents.
 
 # Libraries and Frameworks:
 
@@ -18,7 +18,9 @@ d. Demographic info about customers – gender, age range, and if they have part
 
 The model was deployed using the Flask framework along with HTML for the user interface.
 
+```python
 app = Flask("__name__")
+```
 
 The loadPage method calls our home.html.
 
