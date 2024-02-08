@@ -10,9 +10,22 @@
 3. Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
 4. Demographic info about customers – gender, age range, and if they have partners and dependents.
 
-# Libraries and Frameworks:
+# Libraries and Frameworks
+
+The Python libraries used in this project include pandas, numpy, scikit-learn, matplotlib, plotly, pickle, Flask, and other related libraries for data manipulation, model building, visualization, and deployment.
 
 # Model Building:
+
+For this project I:
+
+1. Train and Evaluate a Logistic Regression model
+2. Train and Evaluate a Random Forest Classifier model
+3. Train and Evaluate a K-Nearest Neighbor model
+4. Train and Evaluate a Naive Bayes Classifier model
+5. Compare the trained models by calculating AUC score and plot ROC curve
+
+![image](https://github.com/MisterAare/telecom_churn_prediction/assets/109184556/7339fe6c-ccb2-4733-b4be-13d9367b2c93)
+
 
 # Deployment:
 
