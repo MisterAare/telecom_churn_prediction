@@ -65,7 +65,7 @@ def predict():
     inputQuery18 = request.form['query18']
     inputQuery19 = request.form['query19']
 
-    model = pickle.load(open("model.sav", "rb"))
+    model = pickle.load(open("model.pkl", "rb"))
     
     data = [[inputQuery1, inputQuery2, inputQuery3, inputQuery4, inputQuery5, inputQuery6, inputQuery7, 
              inputQuery8, inputQuery9, inputQuery10, inputQuery11, inputQuery12, inputQuery13, inputQuery14,
@@ -107,7 +107,7 @@ def predict():
         o1 = "This customer is likely to continue!!"
         o2 = "Confidence: {}".format(probablity*100)
         
-    return render_template('home.html', output1=o1, output2=o2, 
+    return render_template('index.html', output1=o1, output2=o2, 
                            query1 = request.form['query1'], 
                            query2 = request.form['query2'],
                            query3 = request.form['query3'],
