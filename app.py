@@ -7,7 +7,7 @@ from sklearn import metrics
 from flask import Flask, request, render_template
 import pickle
 
-app = Flask("__name__")
+app = Flask("__name__", template_folder='/content/templates', static_folder='/content/static')
 
 df_1=pd.read_csv("first_telc.csv")
 
